@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "git.confirmSync": false,
+    // "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "json.maxItemsComputed": 50000000,
+    "editor.largeFileOptimizations": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+    "editor.minimap.enabled": false,
+	"terminal.integrated.profiles.osx": {
+		"bash": {
+		"path": "bash",
+		"args": [
+		    "-l"
+		],
+		"icon": "terminal-bash"
+	    },
+	    "zsh": {
+		"path": "zsh",
+		"args": [
+		    "-l"
+		]
+	    },
+	    "fish": {
+		"path": "/usr/local/bin/fish", // overriding
+		"args": [
+		    "-l"
+		]
+	    }
+	},
+	"terminal.integrated.env.osx": {
+		"PATH": "/Users/nico/go/bin:/Users/nico/.composer/vendor/bin:/Users/nico/Library/Python/3.7/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+	},
+	"terminal.integrated.defaultProfile.osx": "fish",
+	"terminal.integrated.fontFamily": "'Hack Nerd Font', 'PowerlineSymbols'"
+}
